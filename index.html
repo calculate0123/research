@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>潘诗琰 | 材料加工过程数值模拟</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="南京理工大学潘诗琰副教授，研究方向：材料加工过程数值模拟、凝固与相变、增材制造显微组织、多尺度计算材料学。">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      color: #222;
+      background-color: #ffffff;
+    }
+    a {
+      color: #1d6fb8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header {
+      border-bottom: 1px solid #e0e0e0;
+      background: #fafafa;
+    }
+    .top-bar {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 1.2rem 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.8rem;
+    }
+    .site-title {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+    .site-subtitle {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    nav {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 1rem 0.6rem 1rem;
+      font-size: 0.95rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      white-space: nowrap;
+    }
+    main {
+      max-width: 980px;
+      margin: 1.5rem auto 3rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+      color: #222;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.2rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 0;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.25rem;
+      margin-bottom: 0.9rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.3rem;
+    }
+    .hero {
+      margin-bottom: 2rem;
+    }
+    .hero p {
+      margin: 0.2rem 0;
+    }
+    .muted {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+      margin-top: 0.2rem;
+    }
+    li {
+      margin-bottom: 0.3rem;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      color: #555;
+      background: #f2f2f2;
+      padding: 0.08rem 0.5rem;
+      border-radius: 999px;
+      margin-right: 0.3rem;
+      margin-bottom: 0.15rem;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    footer {
+      border-top: 1px solid #e0e0e0;
+      padding: 1rem 1rem 1.5rem 1rem;
+      font-size: 0.85rem;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <div>
+      <div class="site-title">潘诗琰 <span class="muted">Shiyan Pan</span></div>
+      <div class="site-subtitle">材料加工过程数值模拟 · 凝固与相变 · 增材制造显微组织</div>
+    </div>
+    <div class="muted">
+      南京理工大学 · 材料科学与工程学院 / 工程训练中心
+    </div>
+  </div>
+  <nav>
+    <a href="#about">个人简介</a>
+    <a href="#research">研究方向</a>
+    <a href="#publications">代表论文</a>
+    <a href="#students">招收学生</a>
+    <a href="#contact">联系方式</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about" class="hero">
+    <h1>个人简介</h1>
+    <div class="two-col">
+      <div>
+        <p>潘诗琰，南京理工大学副教授，长期从事<strong>材料加工过程中的数值模拟</strong>研究，关注凝固与相变、显微组织演化以及增材制造过程中的多尺度、多物理场耦合问题。</p>
+        <p>教育背景：本科毕业于合肥工业大学材料成型及控制工程专业，硕博阶段在东南大学材料学院从事材料加工过程数值模拟方向研究。:contentReference[oaicite:1]{index=1}</p>
+        <p>科研工作围绕<strong>包晶合金凝固</strong>、<strong>枝晶与液滴迁移</strong>、<strong>混晶体生长</strong>、<strong>增材成形显微组织性能演化</strong>等展开，综合使用解析建模、相场方法、锐界模型、有限元/CFD、分子动力学等计算手段，并与实验开展对比。</p>
+        <p class="muted">本页面面向有志于从事材料加工数值模拟与计算材料学研究的本科生、研究生和工程师。</p>
+      </div>
+      <div>
+        <h3>研究关键词</h3>
+        <div>
+          <span class="tag">凝固与枝晶生长</span>
+          <span class="tag">包晶相变 (Fe-C 等)</span>
+          <span class="tag">温度梯度区域熔化 / TLZ</span>
+          <span class="tag">相场模拟</span>
+          <span class="tag">锐界界面模型</span>
+          <span class="tag">增材制造显微组织</span>
+          <span class="tag">多尺度建模</span>
+          <span class="tag">有限元 / CFD</span>
+          <span class="tag">分子动力学 (LAMMPS)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>研究方向 Research Topics</h2>
+
+    <h3>1. 包晶合金凝固与相变动力学</h3>
+    <p>围绕 Fe–C 等包晶合金，在<strong>全三相扩散</strong>条件下建立解析模型与多相场模型，系统研究包晶反应与包晶转变过程中 γ 相板条的尖端生长、厚度增长以及界面迁移动力学，对比实验数据，揭示碳扩散与界面条件对显微组织的控制作用。</p>
+    <ul>
+      <li>包晶反应/转变的解析相似解与抛物率常数预测</li>
+      <li>多相场模拟三相界面 (L/δ/γ) 处的浓度分布与三重点行为</li>
+      <li>面向钢连铸缺陷控制的凝固组织调控思路</li>
+    </ul>
+
+    <h3>2. 温度梯度区域熔化与混晶体生长 (TGZM / TLZ)</h3>
+    <p>针对 Si<sub>1−x</sub>Ge<sub>x</sub> 等 A<sub>1−x</sub>B<sub>x</sub> 合金，在<strong>行进液相区 (TLZ)</strong> 条件下生长成分均匀的混晶体，提出考虑非线性溶质分布的解析模型，并与相场模拟和实验结果进行比较，用于指导温度梯度、拉速等工艺参数的选择。</p>
+    <ul>
+      <li>推导时间相关的<strong>临界平移速度</strong>，抑制晶体中的成分偏析</li>
+      <li>分析温度梯度、液相区宽度对固/液界面迁移及晶体均匀性的影响</li>
+      <li>面向半导体、热电与高熵合金混晶体制备的工艺窗口预测</li>
+    </ul>
+
+    <h3>3. 枝晶与液滴迁移、多尺度凝固组织模拟</h3>
+    <p>发展三维锐界模型与格子 Boltzmann / 相场方法，定量模拟溶质枝晶的三维形貌演化及在强制对流下的迁移行为，同时研究温度梯度下液滴与枝晶臂迁移对宏观组织和偏析的影响。</p>
+    <ul>
+      <li>三维锐界模型定量模拟溶质枝晶生长（含各向异性表面能、曲率算法）</li>
+      <li>液滴/枝晶臂在静态与流动条件下的迁移动力学与组织演化</li>
+      <li>与实验观测对比，实现从模型到工艺优化的闭环</li>
+    </ul>
+
+    <h3>4. 增材制造显微组织与跨尺度模拟</h3>
+    <p>结合个人在凝固与相变建模方面的工作，面向弧增材、粉床熔化等增材制造工艺，开展<strong>熔池行为、柱状/等轴晶转变及后续相变</strong>的多尺度模拟，探索显微组织—力学性能之间的联系。:contentReference[oaicite:6]{index=6}</p>
+    <ul>
+      <li>利用有限元/CFD 建立熔池温度场与流动场模型</li>
+      <li>基于相场与 CA/FE/晶塑性等手段模拟显微组织与力学行为</li>
+      <li>为高性能构件的组织设计和工艺窗口提供计算支撑</li>
+    </ul>
+
+  </section>
+
+  <section id="publications">
+    <h2>代表论文 Selected Publications</h2>
+    <p class="muted">以下仅列出与材料加工过程数值模拟和相变凝固相关的部分代表性工作，更多成果请见 Google Scholar。</p>
+    <ul>
+      <li>
+        S. Pan, M. Zhu, “Peritectic transformation with non-linear solute distribution in all three phases: Analytical solution, phase-field modeling and experiment comparison,” <em>Acta Materialia</em>, 146, 63–75, 2018. （包晶转变解析–相场–实验对比）:contentReference[oaicite:7]{index=7}
+      </li>
+      <li>
+        S. Pan, M. Zhu, M. Rettenmayr, “A phase-field study on the peritectic phase transition in Fe-C alloys,” <em>Acta Materialia</em>, 132, 565–575, 2017. （三相包晶反应/转变相场模拟）:contentReference[oaicite:8]{index=8}
+      </li>
+      <li>
+        S. Pan, Q. Zhang, M. Zhu, M. Rettenmayr, “Liquid droplet migration under static and dynamic conditions: Analytical model, phase-field simulation and experiment,” <em>Acta Materialia</em>, 86, 229–239, 2015. （液滴迁移机理与控制）:contentReference[oaicite:9]{index=9}
+      </li>
+      <li>
+        S. Pan, M. Zhu, “A three-dimensional sharp interface model for the quantitative simulation of solutal dendritic growth,” <em>Acta Materialia</em>, 58, 340–352, 2010. （三维枝晶锐界模型与定量模拟）:contentReference[oaicite:10]{index=10}
+      </li>
+      <li>
+        S. Pan, M. Zhu, “Growth of homogeneous mixed A<sub>1−x</sub>B<sub>x</sub> bulk crystals: Analytical prediction, phase-field modeling and experiment comparison,” <em>Materialia</em>, 5, 100247, 2019. （TLZ 混晶体生长解析–相场–实验）:contentReference[oaicite:11]{index=11}
+      </li>
+    </ul>
+  </section>
+
+  <section id="students">
+    <h2>招收学生 For Prospective Students</h2>
+    <p>欢迎具有以下背景和兴趣的同学加入课题组，从事硕士/博士研究或本科生科研训练：</p>
+    <ul>
+      <li>材料科学与工程、应用物理、机械工程、能源与动力工程等相关专业；</li>
+      <li>对<strong>数值模拟、编程、理论分析</strong>有浓厚兴趣，愿意长期投入计算材料学与材料加工过程模拟；</li>
+      <li>具备 C/C++、Python、Fortran 等编程基础或使用过 ANSYS、Fluent、COMSOL、Phase-field 等仿真工具者优先；:contentReference[oaicite:12]{index=12}</li>
+      <li>希望将模拟与实验结合，解决凝固组织控制、增材制造显微组织设计等工程问题。</li>
+    </ul>
+    <p>如果你对以上方向感兴趣，欢迎通过邮件简单介绍个人情况（专业、成绩、编程/仿真经历、感兴趣的研究主题），并附上简历和成绩单。</p>
+  </section>
+
+  <section id="contact">
+    <h2>联系方式 &amp; 链接</h2>
+    <ul>
+      <li><strong>邮箱</strong>：<a href="mailto:calculate@njust.edu.cn">calculate@njust.edu.cn</a> / <a href="mailto:calculate@163.com">calculate@163.com</a>:contentReference[oaicite:13]{index=13}</li>
+      <li><strong>工作单位</strong>：南京理工大学 材料科学与工程学院 / 工程训练中心，江苏省南京市孝陵卫街200号</li>
+      <li><strong>Google Scholar</strong>：
+        <a href="https://scholar.google.com/citations?user=GRk-l4gAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          https://scholar.google.com/citations?user=GRk-l4gAAAAJ&amp;hl=en
+        </a>
+      </li>
+      <li><strong>导师主页（南京理工大学研究生院）</strong>：
+        <a href="https://gsmis.njust.edu.cn/open/TutorInfo.aspx?dsbh=65t8C6EY1P-zPz!PGKeqAA==&amp;yxsh=KuMKlhrvnHk=&amp;zydm=hqcUY5OLMGc=" target="_blank" rel="noopener">
+          南京理工大学研究生导师信息
+        </a>
+      </li>
+      <li><strong>GitHub</strong>（教学与代码示例）：<a href="https://github.com/calculate0123" target="_blank" rel="noopener">github.com/calculate0123</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  © <span id="year"></span> Shiyan Pan · Nanjing University of Science and Technology.  
+  本站基于简单 HTML/CSS 构建，可直接托管于 GitHub Pages。
+</footer>
+
+<script>
+  // 显示当前年份
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
